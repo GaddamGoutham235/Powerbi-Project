@@ -32,7 +32,8 @@
     IF(
     wkd>5,""Weekend"",""Weekday"")
 
-    "Based on the feedback from stakeholder, we considered Friday and Saturday as weekend and weekdays from Sunday to Thurdsay. In PowerBI, Sunday weekday number is 1, Monday is 2 and so on. So, if weekday number is greater than 5, then weekend or else weekday."
+    Based on the feedback from stakeholder, we considered Friday and Saturday as weekend and weekdays from Sunday to Thurdsay. 
+    In PowerBI, Sunday weekday number is 1, Monday is 2 and so on. So, if weekday number is greater than 5, then weekend or else weekday.
 
 ### For creating measures following DAX expression was written
 
